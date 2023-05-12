@@ -1,0 +1,18 @@
+Robot Arm Reinforcement & Imitation Learning
+
+Information:
+
+The primary goal of this project was to implement an imitation learning model to conduct tasks in an environment using a mixture of data.  In order to accomplish this primary goal, smaller goals were set to get working simulator environments and then implement reinforcement learning agents to collect some data and have a baseline comparison.  Since at the time that this project was implemented there weren't any notable papers that used the same dataset, another goal was to show how an imitation learning model using the data could perform.
+
+Dataset:
+
+An aggregated dataset was used for this project.  A bit of generated data was collected from a trained reinforcement learning agent.  The RoboNet dataset is also referenced since it was important for the initial stages of the project, and the RoboTurk simulation dataset was the most important since it matched the simulation environment.  The datasets that were used were all primary using physics descriptors but had other data such as images that can be found on their corresponding websites.
+
+Code:
+
+Python
+Tensorflow: PPO, SAC, Imitation Learning
+Stable-Baselines: PPO, SAC
+Matplotlib: Charts
+Robosuite: Simulator Renders
+OpenAI Gym: Simulator Renders
